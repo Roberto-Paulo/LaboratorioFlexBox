@@ -1,0 +1,34 @@
+body {
+	background-color: white;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: none;
+	/* width: 80%; */
+	height: 50%
+}
+
+
+.column {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	margin-left: 0px;
+}
+
+.square {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 450px;
+	height: 450px;
+	background-color: blue;
+	color: rgb(0, 0, 0);
+	font-size: 100px;
+	font-weight: bold;
+	margin-bottom: none;
+    margin-top: 10px;
+}
